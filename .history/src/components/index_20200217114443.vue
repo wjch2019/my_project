@@ -1,0 +1,12 @@
+<template>
+  <div>
+    <h2>浪里行舟</h2>
+    <child-com1
+      :foo="foo"
+      :boo="boo"
+      :coo="coo"
+      :doo="doo"
+      title="前端工匠"
+    ></child-com1>
+  </div>
+</template>

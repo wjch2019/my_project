@@ -1,0 +1,26 @@
+<template>
+  <div>
+    <h2>浪里行舟</h2>
+    <childCom1
+      :foo="foo"
+      :boo="boo"
+      :coo="coo"
+      :doo="doo"
+      title="前端工匠"
+    ></childCom1>
+  </div>
+</template>
+<script type="text/javascript">
+improt childCom1 from 'childCom1'
+export default {
+  components: { childCom1 },
+  data() {
+    return {
+      foo: "Javascript",
+      boo: "Html",
+      coo: "CSS",
+      doo: "Vue"
+    };
+  }
+};
+</script>
